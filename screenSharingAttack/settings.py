@@ -21,11 +21,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'u-t!%(shm7e%b@0dut%r506p39&6@g_+)cq)v3ksyp-q_sm*#v'
-
+SECURE_SSL_REDIRECT = True
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = ['.pythonanywhere.com']
 
 
 # Application definition
